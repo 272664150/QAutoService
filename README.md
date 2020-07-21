@@ -1,0 +1,2 @@
+# QAutoService
+参照Google的AutoService源码，简单的实现了该框架的功能
