@@ -83,3 +83,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# custom
+.DS_Store
+.idea
+gradle.properties
+gradlew
+gradlew.bat

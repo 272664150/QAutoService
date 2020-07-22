@@ -1,0 +1,8 @@
+rootProject.name = 'QAutoService'
+include ':app'
+include ':module-base'
+include ':module-first'
+include ':module-second'
+include ':module-third'
+include ':lib-annotation'
+include ':lib-core'
