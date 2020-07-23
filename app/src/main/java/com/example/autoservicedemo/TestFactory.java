@@ -1,9 +1,9 @@
 package com.example.autoservicedemo;
 
-import com.example.module.ITest;
-import com.library.core.QServiceLoader;
+import com.module.base.ITest;
 
 import java.util.Iterator;
+import java.util.ServiceLoader;
 
 public class TestFactory {
 
@@ -12,7 +12,7 @@ public class TestFactory {
     private Iterator<ITest> mIterator;
 
     private TestFactory() {
-        QServiceLoader<ITest> loader = QServiceLoader.load(ITest.class);
+        ServiceLoader<ITest> loader = ServiceLoader.load(ITest.class);
         mIterator = loader.iterator();
     }
 
